@@ -13,7 +13,7 @@ function sort(ev) {
 
   const table = document.querySelector('table');
   const tBody = table.tBodies[0];
-  const i = ev.target.cellIndex;
+  const i = th.cellIndex;
 
   const rows = [...table.tBodies[0].rows];
 
